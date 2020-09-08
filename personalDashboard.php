@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Personal dashboard</title>
+  <link rel="stylesheet" href="main.css">
+ </head>
+
+ <body>
+     
+    <ul>
+        <li><a href="index.php">Homepage</a></li>
+        <li><a href="personalDashboard.php">Personal dashboard</a></li>
+        <li><a href="profilePage.html">Profilepage</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+    </ul>
+   
+      <table>
+        <tr>
+          <th>Blok</th>
+          <th>Cursus</th>
+          <th>EC</th>
+          <th>Toets</th>       
+          <th>Cijfer</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td>Programme and Career Orientation</td>
+            <td>2.5</td>
+            <td>Written</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Computer Science Basics</td>
+            <td>7.5</td>
+            <td>Case study</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Programming Basics</td>
+            <td>5</td>
+            <td>Case study exam</td>
+            <td></td>
+      
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td rowspan="2">Object Oriented Programming</td>
+            <td rowspan="2">10</td>
+            <td>Case study</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td>Project</td>
+            <td></td>      
+        </tr>
+        <tr>
+            <td>Professional Skills 1</td>
+            <td>2.5</td>
+            <td>Portfolio exam</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="6">3</td>
+            <td> Framework Project 1</td>
+            <td> 5 </td>
+            <td> 2 portfolio exams</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Professional Working Environment</td>
+            <td>2.5</td>
+            <td>Assesment</td>
+            <td></td>
+        </tr>
+            <td>Framework Development 1</td>
+            <td>5</td>
+            <td>Case study</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Professional Skills 2 </td>
+            <td rowspan="3">2.5</td>
+            <td>Portfolio exam</td>
+            <td></td>
+        </tr>
+            <td>Written exam 1</td>
+            <td></td>
+        </tr>
+        </tr>
+            <td>Written exam 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">4</td>
+            <td>Framework Project 2</td>
+            <td>5</td>
+            <td>Portfolio exam</td>
+            <td></td>
+        </tr>
+            <td rowspan="3">Professional Skills 3</td>
+            <td rowspan="3">2.5</td>
+            <td>Portfolio exam</td>
+            <td></td>
+        </tr>
+            <td>Written exam 1</td>
+            <td></td>
+        </tr>
+        </tr>
+            <td>Written exam 2</td>
+            <td></td>
+        </tr>
+        </tr>
+            <td>Framework development 2</td>
+            <td>5</td>
+            <td>Portfolio exam</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Wanneer dan ook</td>
+            <td>HZ Personality</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>IT Personality</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td></td>
+        </tr>
+   
+        </table>
+    <div class="padding">
+        <table>
+            <tr>
+                <th>De studiegids</th>
+                <th><u>De linkjes werken mogelijk niet als u niet ingelogd bent!</u></th>
+            </tr>
+            <tr>
+                <td>Het CER (Course and Examination Regulations)</td>
+                <td>Klik <a href="https://hz.nl/uploads/documents/Regelingen/EN/OER-HZ-2019-2020werkdocv2018-05-17DEF_ENGELS-AC-29112019.pdf" target="_blank">hier</a></td>
+            </tr>
+            <tr>
+                <td>Het IR (Implementation Regulations)</td>
+                <td>Klik <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf" target="_blank">hier</a></td>
+            </tr>
+            <tr>
+                <td>Learn</td>
+                <td>Klik <a href="https://learn.hz.nl/my/" target="_blank">hier</a></td>
+            </tr>
+            <tr>
+                <td>Teams</td>
+                <td>Klik <a href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c" target="_blank">hier</a></td>
+            </tr>
+            <tr>
+                <td>MyHZ studieprogress</td>
+                <td>Klik <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">hier</a></td>
+            </tr>
+            <tr>
+                <td>Github HZ</td>
+                <td>Klik <a href="https://github.com/HZ-HBO-ICT" target="_blank">hier</a></td>
+            </tr>
+        </table>
+      </div>
+
+ </body>
+
+</html>
