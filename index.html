@@ -40,65 +40,35 @@
           </a>
   </div>
   <div class="d5">           
-            <table>
-              <tr>
-                <td>
-                  <?php
-                date_default_timezone_set("Europe/Amsterdam");
-                $vandaag = date("j F Y");
-                echo "Vandaag is het $vandaag.";
-                ?>
+        <table>
+          <tr>
+            <th>
+            1
+            </th>
+          </tr>
+          <tr>
+            <td>
+            2
             </td>
           </tr>
           <tr>
             <td>
-              <?php
-                $tijd = date("H:i");
-                echo "De tijd op dit moment is $tijd.";
-                ?>
+            3
             </td>
           </tr>
           <tr>
             <td>
-              <?php
-                $maand = date("F");
-                $dagenInMaand = date("t");
-                echo "De maand, $maand heeft $dagenInMaand dagen.";
-                ?>
+            4 
             </td>
           </tr>
           <tr>
             <td>
-              <?php
-                $dag = date("z");
-                $dag .= "e";
-                echo "Deze dag is de $dag dag van het jaar.";
-                ?>
+            5  
             </td>
           </tr>
           <tr>
             <td>
-              <?php
-                $dagVanWeek = date("w");
-                $dagVanWeek .= "e";
-                echo "Het is de $dagVanWeek  dag van de week.";
-                ?>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <?php
-                $jaarL = date("L");
-                $schrikkeljaar = date("L");
-                $jaarY = date("Y");
-                echo "Het jaar $jaarY is";
-                if ($jaarL = $schrikkeljaar){
-                  echo " een schrikkeljaar.";
-                } 
-                else {
-                  echo " geen schrikkeljaar.";
-                }
-                ?>
+            6
             </td>
           </tr>
         </table>
