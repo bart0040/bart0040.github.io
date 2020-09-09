@@ -39,12 +39,6 @@
    box-shadow: 0 1vw 2vw rgba(0,0 ,0 , 0.8);
   }
 
-
-  .afb1{
-    height:10vw;
-    float: left;
-  }
-
   .afb2{
     float: right;
     max-height: 12vw;
@@ -66,16 +60,6 @@
     max-height: 12vw;
     padding: 0vw 1vw 1vw;
   }
-  
-#afbPHP{
-  float:right;
-  }
- 
-#afbPHP img{
-  display:block;
-  max-height: 12vw;
-  padding: 0vw 1vw 1vw;
-   }
  
 .afb5{
   width: 18vw;
@@ -109,25 +93,6 @@ tr:nth-child(even) {
 
 .padding{
   padding: 2vw 0 0 0;
-}
-
-.php{
-  text-align: justify;
-  color: black;
-  font-size: 16px;
-  font-family: monospace;
-  background: none;
-  width: 30vw;
-}
-
-.studieGids{
-  margin: auto;
-  text-align: left;
-  padding: 1vw 1.5vw 1vw 1.5vw;
-  color: black;
-  font-size: 0.9vw;
-  font-family: monospace;
-  background: none;
 }
 
 .mid{
