@@ -178,7 +178,9 @@ background: none;
   margin: auto;
 }
 .w3-green{
-  background-color:green;
-  height:2vw;
   color:white;
+  text-align: right;
+  font-size:16px;
+  background-color:green;
+  height:38px;
 }
