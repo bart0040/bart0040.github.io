@@ -1,75 +1,73 @@
-  ul {
-    margin: 1vw 0vw 2vw;
-    list-style-type: none;
-    padding: 0px;
-    overflow: hidden;
-    background-color: grey;
-    border-radius: 1vw;
-    font-size: 18px;
-  }
+ul {
+  margin: 1vw 0vw 2vw;
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  background-color: grey;
+  border-radius: 1vw;
+  font-size: 18px;
+}
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2vw;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: rgb(161, 166, 170);
-    border-radius: 1vw;
-  }
+li {
+  float: left;
+} 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2vw;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(161, 166, 170);
+  border-radius: 1vw;
+}
 
- .text{
-   text-decoration: none;
-   color: white;
-   font-size: 17px;
-   font-family: monospace;
-   text-align: center;
-   background:grey;
-   margin: auto;
-   border-radius: 1vw;
-   width: 30vw; 
-   padding: 1vw 1.5vw; 
-   box-shadow: 0 1vw 2vw rgba(0,0 ,0 , 0.8);
-  }
+.text{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: monospace;
+  text-align: center;
+  background:grey;
+  margin: auto;
+  border-radius: 1vw;
+  width: 30vw; 
+  padding: 1vw 1.5vw; 
+  box-shadow: 0 1vw 2vw rgba(0,0 ,0 , 0.8);
+}
 
-  .afb2{
-    float: right;
-    max-height: 12vw;
-    padding: 0vw 1vw 1vw;
-  }
+.afb2{
+  float: right;
+  max-height: 12vw;
+  padding: 0vw 1vw 1vw;
+}
 
-  .afb3{
-    height:18vw;
-    float: left;
-    padding: 2% 0 0 2.5%;
-  }
+.afb3{
+  height:18vw;
+  float: left;
+  padding: 2% 0 0 2.5%;
+}
 
-  #afb4{
-   float:left;
-  }
+#afb4{
+  float:left;
+}
 
-  #afb4 img{
-    display:block ;
-    max-height: 12vw;
-    padding: 0vw 1vw 1vw;
-  }
- 
+#afb4 img{
+  display:block ;
+  max-height: 12vw;
+  padding: 0vw 1vw 1vw;
+}
+
 .afb5{
   width: 18vw;
   float: right;
   padding: 0vw 1vw 0vw 0vw;  
- } 
+} 
 
 body {
   background-color: lightgray ;
- } 
+} 
 
 table {
   font-family: arial, sans-serif;
@@ -79,14 +77,11 @@ table {
   padding: 5%;
   margin: auto;
 }
-
 td, th {
   border: 1px solid black;
   text-align: left;
   padding: 0.3vw;
 }
-
-
 tr:nth-child(even) {
   background-color: darkgrey;
 }
@@ -105,6 +100,7 @@ tr:nth-child(even) {
   width: 50%;
   background: none;
 }
+
 .box{
   font-size:16px;
   width:100%;
